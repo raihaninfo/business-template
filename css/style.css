@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+.top-section {
+  background-color: #E5EEF0;
+}
+
+.btn-color {
+  background-color: #29c2e1;
+}
+
+@media only screen and (min-width: 990px) {
+  .img-largscrint {
+    height: 100vh;
+  }
+}
+
+.icon-styles {
+  font-size: 50px;
+  text-align: center;
+  background-color: #F7941D;
+  color: white;
+  padding: 5px;
+
+}
+
+.icon-styles2 {
+  font-size: 50px;
+  text-align: center;
+  background-color: #E5EEF0;
+  color: black;
+  padding: 5px;
+
+}
+.icon-styles2:hover {
+  font-size: 50px;
+  text-align: center;
+  background-color: #F7941D;
+  color: black;
+  padding: 5px;
+
+}
+
+.bg-clients {
+  background-color: #E5EEF0;
+}
+
+.img-circle {
+  height: 132px;
+  width: 132px;
+  border-radius: 50%;
+}
+
+.socal-icon-style {
+  font-size: 20px;
+  color: black;
+}
+
+.position-absolute {
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  margin: 21% 32%;
+}
+
+.card-shadow-active {
+  box-shadow: 2px -1px 6px 0px #000000;
+}
+
+.card-shadow:hover {
+  box-shadow: 2px -1px 18px 0px #000000;
+}
+
+.recommend {
+  background-color: #F7941D;
+  color: #ffffff;
+  transform: rotate(-45deg);
+  padding: 2px 19px;
+  position: absolute;
+  top: 23px;
+  left: -29px;
+}
+.free-server{
+  font-size: 24px;
+  text-align: center;
+}
+.free-server-p{
+  font-size: 16px;
+  text-align: center;
+}
