@@ -2,50 +2,26 @@
 // slider-img
 
 $(document).ready(function(){
-    // $('.your-class').slick({
-    //     slidesToShow: 2,
-    //     slidesToScroll: 2
-    //     asNavFor : '.slider-content'
-    // });
 
-
-
-
-    // $('.slider-content').slick({
-    //     slidesToShow: 1,
-    //     slidesToScroll: 2;
-    //     asNavFor : '.your-class'
-    // });
-
-      $('.slider-content').slick({
+  $('.client').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    asNavFor: '.your-class',
-    dots: true,
-    centerMode: true,
-    focusOnSelect: true
-  });
-
- $('.your-class').slick({
-    slidesToShow: 2,
-    slidesToScroll: 3,
+    autoplay: true,
+    autoplaySpeed: 1000,
     arrows: false,
     fade: true,
-    asNavFor: '.slider-content'
-  });
-
+    asNavFor: '.client-img'
+    });
+    $('.client-img').slick({
+    slidesToShow: 2,
+    slidesToScroll: 3,
+    asNavFor: '.client',
+    focusOnSelect: true,
+    arrows: false,
+    centerMode: true,
+    });
 
 
   });
           
               
-// $('.slider-img').slick({
-//     infinite: false,
-//     slidesToShow: 3,
-//     slidesToScroll: 1
-//     autoplay: true,
-//     fade: true;
-//     arrws: false;
-//   });
-              
-
