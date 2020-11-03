@@ -100,3 +100,19 @@ p {
 .quote-icon{
   font-size: 50px;
 }
+.btn-singup{
+  background-color: #29c2e1;
+  padding: 7px 39px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 31px;
+  margin-right: 5px;
+}
+.btn-contact{
+  background-color: #f69b37;
+  padding: 7px 31px;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 31px;
+  margin-left: 5px;
+}
