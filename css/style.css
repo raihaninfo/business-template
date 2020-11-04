@@ -38,6 +38,7 @@ p {
   padding: 5px;
 
 }
+
 .icon-styles2:hover {
   font-size: 50px;
   text-align: center;
@@ -66,7 +67,7 @@ p {
   z-index: 1;
   color: white;
   font-weight: bold;
-  margin: 21% 32%;
+  margin: 21% 29%;
 }
 
 .card-shadow-active {
@@ -86,21 +87,26 @@ p {
   top: 23px;
   left: -29px;
 }
-.free-server{
+
+.free-server {
   font-size: 24px;
   text-align: center;
 }
-.free-server-p{
+
+.free-server-p {
   font-size: 16px;
   text-align: center;
 }
-.text-warnin{
+
+.text-warnin {
   color: #F7941D;
 }
-.quote-icon{
+
+.quote-icon {
   font-size: 50px;
 }
-.btn-singup{
+
+.btn-singup {
   background-color: #29c2e1;
   padding: 7px 39px;
   color: #ffffff;
@@ -108,11 +114,51 @@ p {
   margin-top: 31px;
   margin-right: 5px;
 }
-.btn-contact{
+
+.btn-contact {
   background-color: #f69b37;
   padding: 7px 31px;
   color: #ffffff;
   font-size: 18px;
   margin-top: 31px;
   margin-left: 5px;
+}
+
+.newsletter-btn {
+  background-color: #29c2e1;
+  color: #ffffff;
+}
+
+.kkk {
+  width: 60px;
+  border-bottom: 2px solid #F7941D;
+  position: absolute;
+  top: 96%;
+  left: 34%;
+}
+
+.path-border {
+  border-bottom: 1px solid #e5eef0;
+  margin-top: -71px;
+}
+
+.frist-path {
+  background: #29c2e1;
+  height: 57px;
+  width: 9%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: relative;
+  left: 85%;
+  bottom: -9px;
+  z-index: 1;
+}
+
+.secend-path {
+  background: #f69b37;
+  height: 80px;
+  width: 10%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  position: relative;
+  left: 90%;
+  bottom: -1;
 }
